@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Figtree';
+	src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+};
+
+@font-face {
+	font-family: 'ItalicFigtree';
+	src: url(../assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format('truetype');
+};
+
+@font-face {
+	font-family: 'FigtreeExtraBold';
+	src: url(../assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'FigtreeSemiBold';
+	src: url(../assets/fonts/static/Figtree-SemiBold.ttf) format('truetype');
+}
+
+.bg-custom {
+	background: hsl(47, 88%, 63%);
+}
+
+.shadow-custom {
+	box-shadow: 6px 6px black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
